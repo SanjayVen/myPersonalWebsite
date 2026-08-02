@@ -99,3 +99,53 @@ button:hover {
     padding: 10px;
     box-sizing: border-box;
 }
+
+h6 {
+    color: #000;
+    text-align: center;
+}
+
+.repair {
+    text-align: center;
+}
+
+#repairCards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.store-card {
+    background-color: #e6f2ff;
+    border: 1px solid #bd31ff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.store-card:hover {
+    transform: translateY(-5px)
+}
+
+.store-logo {
+  height: 60px;
+  max-width: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  border: none !important;
+  background: transparent;
+}
+
+.store-card h3 {
+  margin: 10px 0 5px 0;
+}
+
+.store-card p {
+  margin: 0 0 15px 0;
+  font-size: 14px;
+}
